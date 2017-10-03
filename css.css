@@ -1,11 +1,11 @@
 body{
 	
-font-family: "Helvetica", "Arial", fantasy;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	
-color: #AAFF00;
-	background-color: #ADD3F9;
+color: #303030;
+	background-color: #cbafff;
 	
-text-shadow: 1px 1px #ff0000;
+text-shadow: 1px 1px #000002;
 	text-align: center;
 
 }
@@ -14,18 +14,20 @@ text-shadow: 1px 1px #ff0000;
 
 h1 {
 	
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
 font-size: 1.3em;
 	
 text-align: center;
 	
-text-shadow: 1px 1px #ff0000;
+text-shadow: 1px 1px #ffffff;
 
 }
 
 
 td, th {
     
-border: 1px solid #dddddd;
+border: 1px solid #936cd1;
     
 text-align: left;
     
@@ -35,8 +37,16 @@ padding: 8px;
 
 
 
+tr:nth-child(odd) {
+    
+background-color: #bc93ff;
+
+}
+
+
+
 tr:nth-child(even) {
     
-background-color: #dddddd;
+background-color: #bc93ff;
 
 }
